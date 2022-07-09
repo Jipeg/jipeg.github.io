@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    font-size: 1.3em;
 }
 header {
     text-align: center;
     padding-top: 2ch;
-    height: 70px;
+    height: 75px;
     background-color: #77bb88; 
 }
 
@@ -32,10 +33,19 @@ header h1 {
 aside {
     float: right;
 }
-img {
+img#avatar {
     width: 200px;
     height: 174px;
     padding: 10px;
+}
+
+img#fav {
+	width: 80px;
+	height: 79px;
+	padding-right: 3ch;
+	position: absolute;
+	left: 10px;
+	top: 10px;
 }
 
 section {
