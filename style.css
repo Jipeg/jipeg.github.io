@@ -8,6 +8,10 @@ header {
     height: 75px;
     background-color: #77bb88; 
 }
+header h1 {
+    margin: 0;
+    padding-left: 100px;
+}
 
 nav {
     background-color: #668877;
@@ -26,14 +30,10 @@ nav a:hover {
     color: aqua;
 }
 
-header h1 {
-    margin: 0;
-}
 
-aside {
-    float: right;
-}
+
 img#avatar {
+    float: right;
     width: 200px;
     height: 174px;
     padding: 10px;
@@ -80,6 +80,29 @@ footer {
 }
 
 /* For mobile */
-@media (max-width: 600px) { 
-    img { display: none; }  
+
+
+@media (max-width: 612px) { 
+    img#avatar { 
+        width: 100px;
+        height: 87px;
+        padding: 5px; 
+    }  
+}
+
+@media (max-width: 420px) { 
+    img#fav { 
+        display: none;
+    }
+
+    header h1 {
+        padding-left: 0px;
+    }
+    
+}
+
+@media (max-width: 396px) { 
+    nav, footer h2, article {
+        display: none;
+    }
 }
