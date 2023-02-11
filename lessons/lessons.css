@@ -3,7 +3,8 @@
    /* // color: red; */
 }
 section ul{
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
     font-size: larger;
     margin: 0;
 }
@@ -29,5 +30,11 @@ section ul li a {
     }
     article {
         padding-left: 25px;
+    }
+}
+
+@media (max-width: 606px) {
+    section {
+        display: none;
     }
 }
