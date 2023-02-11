@@ -1,0 +1,33 @@
+* {
+    color: rgb(37, 35, 35);
+   /* // color: red; */
+}
+section ul{
+    list-style: none;
+    font-size: larger;
+    margin: 0;
+}
+
+section ol li:hover {
+    /* border: 1px solid; */
+    background-color: aqua;
+}
+
+a:active {
+    color: red;
+}
+
+section ul li a {
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    section {
+        width: auto;
+        max-width: 250px;
+        margin-right: 10px;
+    }
+    article {
+        padding-left: 25px;
+    }
+}
