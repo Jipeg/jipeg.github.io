@@ -5,6 +5,8 @@
 }
  html, body {
 	 height: 100%;
+	 margin: 0;
+	 padding: 0;
 }
  body {
 	 font-family: 'Open Sans', sans-serif;
@@ -36,6 +38,7 @@
 }
  .profile {
 	 background: #fff;
+	 min-height: 100vh;
 	 width: 40%;
 	 float: left;
 	 color: #9099a0;
@@ -152,6 +155,7 @@
 	 text-align: left;
 	 font-weight: 600;
 	 width: 40%;
+	 margin-bottom: 0;
 	 color: #4a4e51;
 }
  .profile .list-content {
@@ -159,6 +163,7 @@
 	 width: 60%;
 	 text-align: left;
 	 font-weight: 300;
+	 margin-bottom: 0;
 }
  .profile .contact-presentation {
 	 text-align: left;
@@ -241,7 +246,7 @@
 	 margin-bottom: 15px;
 }
  .section-padding {
-	 padding: 60px 60px 40px 40px;
+	 padding: 60px 60px 0px 40px;
 }
  @media (max-width: 850px) {
 	 .section-padding {
